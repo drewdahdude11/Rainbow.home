@@ -4,35 +4,39 @@ body {
     background: linear-gradient(to bottom, #000000, #1a1a1a);
     color: white;
     text-align: center;
-      }
+}
 
 h1, h2 {
     color: white;
-      }
+}
+
 .navbar {
-      display: flex;
-      overflow: hidden;
-      }
+    display: flex;
+    overflow: hidden;
+}
 
 .navbar a {
-        flex: 1;
-        padding: 14px 20px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        transition: transform 0.2s;
-        }
+    flex: 1;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
 
 .navbar a:hover {
-          transform: scale(1.05);
-          filter: brightness(1.2);
-        }
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
 
+/* Rainbow colors */
 .navbar a:nth-child(1) { background-color: #FF4136; } /* Red */
 .navbar a:nth-child(2) { background-color: #FF851B; } /* Orange */
-.navbar a:nth-child(3) { background-color: #FFDC00; color: #000; } /* Yellow */
+.navbar a:nth-child(3) {
+    background-color: #FFDC00;
+    color: #000;
+} /* Yellow */
 .navbar a:nth-child(4) { background-color: #2ECC40; } /* Green */
 .navbar a:nth-child(5) { background-color: #0074D9; } /* Blue */
 .navbar a:nth-child(6) { background-color: #B10DC9; } /* Purple */
-
